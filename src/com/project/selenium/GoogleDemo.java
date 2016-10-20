@@ -24,7 +24,7 @@ public class GoogleDemo {
 		driver.findElement(By.xpath("//input[@id='lst-ib']")).sendKeys("pakistan");
 		driver.findElement(By.xpath("//div[@id='sblsbb']")).click();
 		Thread.sleep(5000);
-		//Git Demo
+		//Git
 		//Random rndmNumber=new Random(); 
 		//int num=rndmNumber.nextInt();
 		DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
