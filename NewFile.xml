@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suit1" parallel="methods" thread-count="2">
+<tests name="tests">
+<test name="test1">
+<classes>
+<parameter name="browser1" value="firefox"></parameter>
+<parameter name="browser2" value="Chrome"></parameter>
+<class name="com.project.selenium.IrctcDemo"></class>
+</classes>
+</test>
+</tests>
+</suite>

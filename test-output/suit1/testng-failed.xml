@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [suit1]" parallel="methods">
+  <parameter name="browser2" value="Chrome"/>
+  <parameter name="browser1" value="firefox"/>
+  <test name="test1(failed)" parallel="methods">
+    <classes>
+      <class name="com.project.selenium.IrctcDemo">
+        <methods>
+          <include name="selectBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.project.selenium.IrctcDemo -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suit1] -->
